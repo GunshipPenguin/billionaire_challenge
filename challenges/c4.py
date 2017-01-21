@@ -15,3 +15,4 @@ class c4(Challenge):
     def get_response(self, app):
         resp = app.send_static_file('c4/cookie.png')
         resp.set_cookie('next_clue', '6360f685c52760b5c680948c604263cd6c68719c')
+        return resp

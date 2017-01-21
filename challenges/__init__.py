@@ -3,11 +3,11 @@ import glob
 import sys
 
 modules = glob.glob(dirname(__file__)+"/c*[0-9].py")
-
 sys.path.append(dirname(__file__))
 
 # Load all of the modules containing the challenge classes
 modules = [basename(path)[:-3] for path in modules]
+modules.sort() # Ensure that modules are in c1-c* order
 modules = [__import__(mod) for mod in modules]
 
 # Extract the challenge class from each module
