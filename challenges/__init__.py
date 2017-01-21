@@ -13,4 +13,7 @@ modules = [__import__(mod) for mod in modules]
 # Extract the challenge class from each module
 challengeClasses = []
 for i in range(1, len(modules)+1):
-    challengeClasses.append(getattr(modules[i-1], 'c' + str(i)))
+    try:
+        challengeClasses.append(getattr(modules[i-1], 'c' + str(i)))
+    except:
+        continue
