@@ -7,13 +7,13 @@ sys.path.append(dirname(__file__))
 
 # Load all of the modules containing the challenge classes
 modules = [basename(path)[:-3] for path in modules]
-modules.sort() # Ensure that modules are in c1-c* order
 modules = [__import__(mod) for mod in modules]
 
 # Extract the challenge class from each module
 challengeClasses = []
-for i in range(1, len(modules)+1):
+for module in modules:
+    moduleName = module.__name__
     try:
-        challengeClasses.append(getattr(modules[i-1], 'c' + str(i)))
+        challengeClasses.append(getattr(module, moduleName))
     except:
-        continue
+        print('WARNING: Your class or module is named incorrectly in challenge: ' + moduleName)
