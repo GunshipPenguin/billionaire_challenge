@@ -10,7 +10,7 @@ class c5(Challenge):
     def __init__(self):
         super()
         self._id = '6360f685c52760b5c680948c604263cd6c68719c'
-        self._hints = {}
+        self._hints = {1: 'HTTP', 2: 'Headers', 3: 'Response Headers'}
 
     def get_response(self, app):
         resp = app.send_static_file('c5/index.html')

@@ -19,7 +19,7 @@ class Challenge(object):
         '''
         return flask.response()
 
-    def get_hint(self, hintNum, app):
+    def get_hint(self, hintNum):
         '''
         Return the hint with the given hint number.
         '''

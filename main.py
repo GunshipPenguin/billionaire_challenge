@@ -30,14 +30,13 @@ def hint(challenge_id, hint):
 
     # Ensure that challenge_id is valid
     if (not challenge):
-        return 'Not found', 404
+        return 'Invalid hint number', 404
 
     # Ensure that the hint number provided is a valid integer
     hintNum = 0
     try:
         hintNum = int(hint)
     except:
-        print ('asdf')
         return 'Invalid hint number', 404
 
     # Ensure that the hint number is a valid hint number
