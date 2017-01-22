@@ -4,6 +4,7 @@ import flask
 class c2(Challenge):
     '''
     Challenge 2
+    console.log
     '''
 
     def __init__(self):
