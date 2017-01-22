@@ -10,7 +10,7 @@ class c10(Challenge):
     def __init__(self):
         super()
         self._id = '3167edc3d1bcf789d56e2455d78d848aa29bbe8e'
-        self._hints = {}
+        self._hints = {1: 'Esoteric Programming Languages'}
 
     def get_response(self, app):
        return app.send_static_file('c10/index.html')

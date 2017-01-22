@@ -14,5 +14,5 @@ class c5(Challenge):
 
     def get_response(self, app):
         resp = app.send_static_file('c5/index.html')
-        resp.headers['X-Next-Clue'] = '9eaa24f4dd5f3b17291b36958f05e0a6895172f3'
+        resp.headers['X-Next-Level'] = '9eaa24f4dd5f3b17291b36958f05e0a6895172f3'
         return resp

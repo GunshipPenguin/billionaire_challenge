@@ -10,7 +10,7 @@ class c1(Challenge):
     def __init__(self):
         super()
         self._id = 'f6fd1656d79b06918bb5cf85c8bae58c3884deaf'
-        self._hints = {}
+        self._hints = {1: 'CSS'}
 
     def get_response(self, app):
         return app.send_static_file('c1/index.html')
