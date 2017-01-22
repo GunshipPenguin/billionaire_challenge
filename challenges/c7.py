@@ -9,7 +9,7 @@ class c7(Challenge):
 
     def __init__(self):
         super()
-        self._id = 'a1adda29d338287fe42d20c1a7d6e32481129a9b'
+        self._id = '3aed4348ed11e6adf1b54885b297078070ac455'
         self._hints = {1: 'Base58 Encoding'}
 
     def get_response(self, app):
