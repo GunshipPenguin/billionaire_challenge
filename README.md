@@ -2,8 +2,7 @@
 
 Multibillionare Mike McHack has just died, leaving an estate valued at several
 million Bitcoin. A lifelong hacker, in his will, he left his entire estate to
-the first person who can solve his series of technical challenges technical
-challenges.
+the first person who can solve his series of technical challenges.
 
 This is where you come in. As a keen Hacker, you're up to the challenge, and
 are itching to begin.
