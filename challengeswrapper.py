@@ -15,7 +15,7 @@ class ChallengesWrapper(object):
         for challenge in challenges.challengeClasses:
             newChallenge = challenge()
             self._challenges[newChallenge.get_id()] = newChallenge
-
+        
     def get_challenge(self, id):
         '''
         Given a challenge id, return the challenge object with that id. Returns

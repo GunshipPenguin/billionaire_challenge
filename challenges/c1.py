@@ -4,6 +4,7 @@ import flask
 class c1(Challenge):
     '''
     Challenge 1
+    Hidden element with CSSs
     '''
 
     def __init__(self):

@@ -1,16 +1,16 @@
 from challenge import Challenge
 import flask
 
-class c11(Challenge):
+class c8(Challenge):
     '''
-    Challenge 11
+    Challenge 8
     ASCII Binary Values
     '''
 
     def __init__(self):
         super()
-        self._id = '11'
+        self._id = '148f2c3d5f873e59ea58d618702f761f4bc8442c'
         self._hints = {}
 
     def get_response(self, app):
-        return app.send_static_file('c11/index.html')
+        return app.send_static_file('c8/index.html')
