@@ -1,5 +1,7 @@
 # The Billionaire's Challenge
 
+Created at PennApps XV
+
 Multibillionare Mike McHack has just died, leaving an estate valued at several
 million Bitcoin. A lifelong hacker, in his will, he left his entire estate to
 the first person who can solve his series of technical challenges.
